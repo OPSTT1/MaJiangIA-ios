@@ -15,6 +15,8 @@
 		B2207C301CD1D9D100787A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2207C2E1CD1D9D100787A0A /* Main.storyboard */; };
 		B2207C321CD1D9D100787A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2207C311CD1D9D100787A0A /* Assets.xcassets */; };
 		B2207C351CD1D9D100787A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2207C331CD1D9D100787A0A /* LaunchScreen.storyboard */; };
+		B2207C3E1CD1E03800787A0A /* SingleMajiang.m in Sources */ = {isa = PBXBuildFile; fileRef = B2207C3D1CD1E03800787A0A /* SingleMajiang.m */; };
+		B2207C421CD1EDE100787A0A /* UnPutMJHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = B2207C411CD1EDE100787A0A /* UnPutMJHeap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,11 @@
 		B2207C311CD1D9D100787A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2207C341CD1D9D100787A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2207C361CD1D9D100787A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2207C3C1CD1E03800787A0A /* SingleMajiang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleMajiang.h; sourceTree = "<group>"; };
+		B2207C3D1CD1E03800787A0A /* SingleMajiang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleMajiang.m; sourceTree = "<group>"; };
+		B2207C401CD1EDE100787A0A /* UnPutMJHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnPutMJHeap.h; sourceTree = "<group>"; };
+		B2207C411CD1EDE100787A0A /* UnPutMJHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnPutMJHeap.m; sourceTree = "<group>"; };
+		B2207C461CD1F94E00787A0A /* ConstantClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,9 @@
 		B2207C1F1CD1D9D100787A0A /* MajiangAI */ = {
 			isa = PBXGroup;
 			children = (
+				B2207C441CD1F4B000787A0A /* assets */,
+				B2207C431CD1F4A500787A0A /* UIView */,
+				B2207C3F1CD1E03D00787A0A /* MajiangMode */,
 				B2207C231CD1D9D100787A0A /* AppDelegate.h */,
 				B2207C241CD1D9D100787A0A /* AppDelegate.m */,
 				B2207C261CD1D9D100787A0A /* GameScene.h */,
@@ -75,6 +85,7 @@
 				B2207C331CD1D9D100787A0A /* LaunchScreen.storyboard */,
 				B2207C361CD1D9D100787A0A /* Info.plist */,
 				B2207C201CD1D9D100787A0A /* Supporting Files */,
+				B2207C461CD1F94E00787A0A /* ConstantClass.h */,
 			);
 			path = MajiangAI;
 			sourceTree = "<group>";
@@ -85,6 +96,39 @@
 				B2207C211CD1D9D100787A0A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2207C3F1CD1E03D00787A0A /* MajiangMode */ = {
+			isa = PBXGroup;
+			children = (
+				B2207C3C1CD1E03800787A0A /* SingleMajiang.h */,
+				B2207C3D1CD1E03800787A0A /* SingleMajiang.m */,
+				B2207C401CD1EDE100787A0A /* UnPutMJHeap.h */,
+				B2207C411CD1EDE100787A0A /* UnPutMJHeap.m */,
+			);
+			name = MajiangMode;
+			sourceTree = "<group>";
+		};
+		B2207C431CD1F4A500787A0A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		B2207C441CD1F4B000787A0A /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				B2207C451CD1F4ED00787A0A /* mj */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		B2207C451CD1F4ED00787A0A /* mj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = mj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2207C3E1CD1E03800787A0A /* SingleMajiang.m in Sources */,
+				B2207C421CD1EDE100787A0A /* UnPutMJHeap.m in Sources */,
 				B2207C2D1CD1D9D100787A0A /* GameViewController.m in Sources */,
 				B2207C251CD1D9D100787A0A /* AppDelegate.m in Sources */,
 				B2207C281CD1D9D100787A0A /* GameScene.m in Sources */,
@@ -274,9 +320,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MajiangAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lhm.MajiangAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -285,9 +333,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MajiangAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lhm.MajiangAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
