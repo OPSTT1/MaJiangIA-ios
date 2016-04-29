@@ -17,6 +17,11 @@
 		B2207C351CD1D9D100787A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2207C331CD1D9D100787A0A /* LaunchScreen.storyboard */; };
 		B2207C3E1CD1E03800787A0A /* SingleMajiang.m in Sources */ = {isa = PBXBuildFile; fileRef = B2207C3D1CD1E03800787A0A /* SingleMajiang.m */; };
 		B2207C421CD1EDE100787A0A /* UnPutMJHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = B2207C411CD1EDE100787A0A /* UnPutMJHeap.m */; };
+		B2E5B2131CD301DA00BC2444 /* singleMajiangNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E5B2121CD301DA00BC2444 /* singleMajiangNode.m */; };
+		B2E5B2161CD30C9900BC2444 /* MajiangEachHeaps.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E5B2151CD30C9900BC2444 /* MajiangEachHeaps.m */; };
+		B2E5B21A1CD3124400BC2444 /* Mjplatform.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E5B2191CD3124400BC2444 /* Mjplatform.m */; };
+		B2E5B21E1CD3356E00BC2444 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E5B21D1CD3356E00BC2444 /* Player.m */; };
+		B2E5B2211CD33D8000BC2444 /* EachMjHeaps.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E5B2201CD33D8000BC2444 /* EachMjHeaps.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,16 @@
 		B2207C401CD1EDE100787A0A /* UnPutMJHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnPutMJHeap.h; sourceTree = "<group>"; };
 		B2207C411CD1EDE100787A0A /* UnPutMJHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnPutMJHeap.m; sourceTree = "<group>"; };
 		B2207C461CD1F94E00787A0A /* ConstantClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantClass.h; sourceTree = "<group>"; };
+		B2E5B2111CD301DA00BC2444 /* singleMajiangNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleMajiangNode.h; sourceTree = "<group>"; };
+		B2E5B2121CD301DA00BC2444 /* singleMajiangNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singleMajiangNode.m; sourceTree = "<group>"; };
+		B2E5B2141CD30C9900BC2444 /* MajiangEachHeaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajiangEachHeaps.h; sourceTree = "<group>"; };
+		B2E5B2151CD30C9900BC2444 /* MajiangEachHeaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajiangEachHeaps.m; sourceTree = "<group>"; };
+		B2E5B2181CD3124400BC2444 /* Mjplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mjplatform.h; sourceTree = "<group>"; };
+		B2E5B2191CD3124400BC2444 /* Mjplatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mjplatform.m; sourceTree = "<group>"; };
+		B2E5B21C1CD3356E00BC2444 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B2E5B21D1CD3356E00BC2444 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B2E5B21F1CD33D8000BC2444 /* EachMjHeaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EachMjHeaps.h; sourceTree = "<group>"; };
+		B2E5B2201CD33D8000BC2444 /* EachMjHeaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EachMjHeaps.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +85,8 @@
 		B2207C1F1CD1D9D100787A0A /* MajiangAI */ = {
 			isa = PBXGroup;
 			children = (
+				B2E5B21B1CD3355000BC2444 /* player */,
+				B2E5B2171CD311EC00BC2444 /* play */,
 				B2207C441CD1F4B000787A0A /* assets */,
 				B2207C431CD1F4A500787A0A /* UIView */,
 				B2207C3F1CD1E03D00787A0A /* MajiangMode */,
@@ -105,6 +122,8 @@
 				B2207C3D1CD1E03800787A0A /* SingleMajiang.m */,
 				B2207C401CD1EDE100787A0A /* UnPutMJHeap.h */,
 				B2207C411CD1EDE100787A0A /* UnPutMJHeap.m */,
+				B2E5B2141CD30C9900BC2444 /* MajiangEachHeaps.h */,
+				B2E5B2151CD30C9900BC2444 /* MajiangEachHeaps.m */,
 			);
 			name = MajiangMode;
 			sourceTree = "<group>";
@@ -112,6 +131,10 @@
 		B2207C431CD1F4A500787A0A /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				B2E5B2111CD301DA00BC2444 /* singleMajiangNode.h */,
+				B2E5B2121CD301DA00BC2444 /* singleMajiangNode.m */,
+				B2E5B21F1CD33D8000BC2444 /* EachMjHeaps.h */,
+				B2E5B2201CD33D8000BC2444 /* EachMjHeaps.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -129,6 +152,24 @@
 			children = (
 			);
 			name = mj;
+			sourceTree = "<group>";
+		};
+		B2E5B2171CD311EC00BC2444 /* play */ = {
+			isa = PBXGroup;
+			children = (
+				B2E5B2181CD3124400BC2444 /* Mjplatform.h */,
+				B2E5B2191CD3124400BC2444 /* Mjplatform.m */,
+			);
+			name = play;
+			sourceTree = "<group>";
+		};
+		B2E5B21B1CD3355000BC2444 /* player */ = {
+			isa = PBXGroup;
+			children = (
+				B2E5B21C1CD3356E00BC2444 /* Player.h */,
+				B2E5B21D1CD3356E00BC2444 /* Player.m */,
+			);
+			name = player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E5B21A1CD3124400BC2444 /* Mjplatform.m in Sources */,
 				B2207C3E1CD1E03800787A0A /* SingleMajiang.m in Sources */,
 				B2207C421CD1EDE100787A0A /* UnPutMJHeap.m in Sources */,
+				B2E5B2211CD33D8000BC2444 /* EachMjHeaps.m in Sources */,
 				B2207C2D1CD1D9D100787A0A /* GameViewController.m in Sources */,
+				B2E5B21E1CD3356E00BC2444 /* Player.m in Sources */,
 				B2207C251CD1D9D100787A0A /* AppDelegate.m in Sources */,
 				B2207C281CD1D9D100787A0A /* GameScene.m in Sources */,
+				B2E5B2131CD301DA00BC2444 /* singleMajiangNode.m in Sources */,
+				B2E5B2161CD30C9900BC2444 /* MajiangEachHeaps.m in Sources */,
 				B2207C221CD1D9D100787A0A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +406,7 @@
 				B2207C3B1CD1D9D100787A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

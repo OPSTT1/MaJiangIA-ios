@@ -11,11 +11,20 @@
 #define mjHeight 40.0
 #define jiange 2.0
 
-#define mjBackWidth_v  15
-#define mjBackHeight_v 23
+#define mjBackWidth_v  10
+#define mjBackHeight_v 20
 
-#define mjBackWidth_h 23
-#define mjBackHeight_h 15
+#define mjBackWidth_h 20
+#define mjBackHeight_h 13.5
+
+#define mjLeftOrRightHave_width  15
+#define mjLeftOrRightHave_height 23
+
+#define mjMeHave_width = 20
+#define mjMeHave_height = 40
+
+#define mjUpHave_width = 15
+#define mjUpHave_height = 23
 
 
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
